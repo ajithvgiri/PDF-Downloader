@@ -2,4 +2,5 @@
     <string name="app_name">PDF Downloader</string>
     <string name="action_settings">Settings</string>
     <string name="pdf_url">PDF URL</string>
+    <string name="permission_request_message">Storage permission allows us to save pdf.</string>
 </resources>
