@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectStorageHelper">
+    <option name="apkLocation" value="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+    <option name="projectName" value="PDF Downloader" />
+  </component>
+</project>
