@@ -1,4 +1,4 @@
-# PDFDownloader
+# PDF Downloader
 Example app to download pdf from url and saved into your internal storage
 
 ```java

@@ -37,8 +37,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (permissionUtils.checkPermission(MainActivity.this, STORAGE_PERMISSION_REQUEST_CODE, view)) {
-//                    downloadPdf();
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.pdf995.com/samples/pdf.pdf")));
+                    if (urlEditText.getText().toString().length() > 0) {
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(urlEditText.getText().toString())));
+                    }
+
                 }
             }
         });
