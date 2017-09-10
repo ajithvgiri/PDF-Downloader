@@ -1,6 +1,8 @@
 package com.ajithvgiri.pdfdownloader;
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TextInputLayout;
@@ -35,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (permissionUtils.checkPermission(MainActivity.this, STORAGE_PERMISSION_REQUEST_CODE, view)) {
-
+//                    downloadPdf();
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.pdf995.com/samples/pdf.pdf")));
                 }
             }
         });
