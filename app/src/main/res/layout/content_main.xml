@@ -8,4 +8,19 @@
     tools:context="com.ajithvgiri.pdfdownloader.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pdf_url" />
+    </android.support.design.widget.TextInputLayout>
 </android.support.constraint.ConstraintLayout>
