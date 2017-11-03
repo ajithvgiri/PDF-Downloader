@@ -156,3 +156,6 @@ fabric.properties
 ### AndroidStudio Patch ###
 
 !/gradle/wrapper/gradle-wrapper.jar
+
+.idea/instapk.xml
+instapk.log*
