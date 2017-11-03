@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 if (permissionUtils.checkPermission(MainActivity.this, STORAGE_PERMISSION_REQUEST_CODE, view)) {
                     if (urlEditText.getText().toString().length() > 0) {
                         try {
-                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("data:application/pdf;")));
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(urlEditText.getText().toString())));
                         } catch (Exception e) {
                             e.getStackTrace();
                         }
