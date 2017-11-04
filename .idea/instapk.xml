@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectStorageHelper">
     <option name="apkLocation" value="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-    <option name="projectName" value="PDF Downloader" />
+    <option name="packageName" value="com.ajithvgiri.pdfdownloader" />
+    <option name="projectName" value="PDFDownloader" />
   </component>
 </project>

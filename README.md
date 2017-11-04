@@ -1,3 +1,5 @@
+[![API](https://img.shields.io/badge/API-19%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=19)
+
 # PDF Downloader
 Example app to download pdf from url and saved into your internal storage
 
